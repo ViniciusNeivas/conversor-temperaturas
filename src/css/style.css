@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap");
+
+body {
+  font-family: "Stick No Bills", sans-serif;
+  background-repeat: no-repeat;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://lh3.googleusercontent.com/rHHmA8Duyr0GK3kdLVySmL7wAyJXJM3iPO2DlgW122IyeSvjGAVnweb5MJW0vkiArA=h1024-no-tmp_conversor_de_temperatura_passo_a_passo_apk.jpg");
+  background-position: center bottom;
+  background-attachment: fixed;
+  min-height: 400px;
+}
+
