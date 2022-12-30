@@ -1,5 +1,16 @@
-* {
+*, p, h1, h2, h3, img {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
+
+ul li  {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+

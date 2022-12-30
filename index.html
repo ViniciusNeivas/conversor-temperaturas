@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -7,71 +7,135 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./src/css/style.css">
   <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/patterns.css">
   <script src="./src/js/script.js" defer></script>
   <title>Conversor de Temperatura</title>
 </head>
 
 <body>
   <header>
-    
+    <nav>
+      <ul>
+        <li>Celsius</li>
+        <li>Fahrenheit</li>
+        <li>Kelvin</li>
+      </ul>
+    </nav>
   </header>
+
   <main>
     <section>
       <h1>
-        Conversor de Temperatura
+        Conversão de Temperatura
       </h1>
     </section>
-  
+
     <section>
+      <h3>
+        Introdução - Escalas termométricas
+      </h3>
+
       <p>
-        Descubra Os Valores das Temperaturas nas Escalas de Celsius (C), Fahrenheit (F) e Kelvin (K).
+        Uma escala termométrica é composta por valores estabelecidos de forma arbitrária a partir dos pontos de fusão e
+        ebulição da água. A sua função é medir temperaturas, mostrando por meio de seus valores se um corpo está quente
+        ou frio.
+      </p>
+
+      <p>
+        Construir uma escala termométrica é algo extremamente fácil, por isso, com o desenvolvimento dos estudos em
+        Termologia, no século XVIII, existiam cerca de 40 escalas em uso. Hoje as escalas utilizadas são apenas três:
+        Celsius, Fahrenheit e Kelvin.
       </p>
     </section>
-  
+
     <section>
       <h2>
-        Inspira o valor a ser convertido.
+        Celsius
       </h2>
-  
-  
-      <input type="number" id="valor">
-  
-      <section>
-        <button>
-          Celsius (°C) Para Fahrenheit (°F)
-        </button>
-        <button>
-          Celsius (°C) Para Kelvin (K)
-        </button>
-      </section>
+
+      <h3>
+        História
+      </h3>
       
-      <section>
-        <button>
-          Fahrenheit (°F) Para Celsius(°C)
-        </button>
-  
-        <button>
-          Fahrenheit(°F) Para Kelvin (K)
-        </button>
-      </section>
-      
-      <section>
-        <button>
-          Kelvin(K) Para Celsius(°C)
-        </button>
-  
-        <button>
-          Kelvin(K) Para Fahrenheit(°F)
-        </button>
-      </section>
-  
-  
+      <section  class="container">
+        <section>
+          
+          <p>
+            Em 1742, o astrônomo sueco Anders Celsius (1701-1744) publicou nos Anais da Academia Real das Ciências da Suécia seu trabalho intitulado "Observações sobre dois graus persistentes de um termômetro".Neste trabalho, Celsius considerou que uma substância pura muda de estado físico à temperatura constante e baseado nisso, propôs uma nova escala termométrica, a escala de graus centígrados, na qual definiu a temperatura 0 como sendo a temperatura medida no termômetro equivalente à temperatura em que a água entra em ebulição e 100 sendo a temperatura equivalente ao ponto em que o gelo derrete. Desta forma, diferentemente da convenção moderna, um menor valor representaria uma temperatura mais alta e um maior valor, uma temperatura mais baixa neste modelo.
+          </p>
+          <p>
+            Embora existiram alguns trabalhos paralelos nos anos seguintes, apresentando o valor 0 para o ponto de derretimento do gelo e 100 para o ponto de ebulição da água, como o "Termômetro de Lyon", os créditos pela inversão da escala de graus centígrados foram dados ao botânico sueco Carolus Linnaeus (1707-1778) e ao fabricante sueco de instrumentos científicos Daniel Ekström (1711-1755), que juntos produziram o "Termômetro de Linnaeus"
+          </p>
+    
+          <p>
+            Anteriormente ao modelo proposto por Celsius, já existiam outras escalas baseadas nos estados físicos da água, como a escala Réaumur. Mas devido à sua simplicidade, a escala centígrada tornou-se mundialmente conhecida, inclusive servindo de base para a criação de outros modelos, como é o caso da escala Kelvin.
+          </p>
+    
+          <p>
+            Em 1948, durante a 9.ª Conferência Geral de Pesos e Medidas (CR 64), a escala centígrada teve seu nome oficialmente modificado para escala Celsius, como meio de resolver as confusões geradas com o prefixo centi do SI e como forma de homenagear o astrônomo sueco.
+          </p>
+    
+          <p>
+            A escala Celsius é usada em quase todo o mundo. Nos Estados Unidos, Fahrenheit é a escala preferida para medidas de temperatura no dia a dia. Deve ser notado, no entanto, que mesmo estes países usam Celsius ou Kelvin em aplicações científicas.
+          </p>
+        </section>
+
+        <section>
+          <figure>
+            <img src="./src/img/anders-celsius.jpeg" alt="Anders Celsius">
+          </figure>
+          <figcaption>
+
+          </figcaption>
+        </section>
+      </section>  
     </section>
+
+    <section>
+      <table>
+        <tr>
+          <td>Escala Celsius</td>
+        </tr>
+
+        <tr>
+          <td>Ponto de Fusão</td>
+          <td>Ponto de Ebulição</td>
+        </tr>
+
+        <tr>
+          <td>0°C</td>
+          <td>100°C</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h3>
+        Conversões
+      </h3>
+
+      <section>
+        <input type="number">
+      </section>
+
+      <section>
+        <button>
+          Celsius para Fahrenheit(°F) 
+        </button>
+  
+        <button>
+          Celsius para Kelvin(K)
+        </button>
+      </section>
+
+      </section>
+
+
   </main>
 
- <footer>
+<footer>
 
- </footer> 
+</footer>
 </body>
 
 </html>
